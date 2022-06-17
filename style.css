@@ -1,0 +1,102 @@
+
+main {
+display: flex;
+margin: auto;
+width: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+background-color: hsl(0, 0%, 95%);
+} 
+
+.sedan{
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background-color: hsl(31, 77%, 52%); 
+    padding: 40px;
+    height: 320px;
+}
+
+.suv{
+    background-color: hsl(184, 100%, 22%);
+    padding: 40px;
+    height: 320px;
+}
+
+.luxury{
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-color: hsl(179, 100%, 13%);
+    padding: 40px;
+    height: 320px;
+}
+
+h3{    
+    color: hsl(0, 0%, 95%);
+    font-weight: 700;
+    @font-face {
+        font-family: Big Shoulders Display();
+        src: url(https://fonts.google.com/specimen/Big+Shoulders+Display); 
+    };
+}
+
+p{
+    color:hsla(0, 0%, 100%, 0.75);
+    @font-face {
+        font-family: Lexend Deca;
+        src: url(https://fonts.google.com/specimen/Lexend+Deca);
+    };
+    font-size: 15px;
+    font-weight: 400;
+    max-width: 150px;
+}
+
+.sedbut{
+    margin-top: 40px;
+    background: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%); 
+    padding: auto;
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 25px;
+    }
+
+.sedbut:hover{
+background: transparent;
+border: 2px solid white;
+color:white;
+}
+
+.suvbut{
+    margin-top: 40px;
+    background: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 25px;
+}
+
+.suvbut:hover{
+    background: transparent;
+    border: 2px solid white;
+    color:white;
+    }
+
+.luxbut{
+    margin-top: 40px;
+    background: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 25px;
+}
+
+.luxbut:hover{
+    background: transparent;
+    border: 2px solid white;
+    color:white;
+    }
